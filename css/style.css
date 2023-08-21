@@ -1,0 +1,26 @@
+#griglia {
+    /* background-color: blue; */
+    width: 800px;
+    /* min-height: 1px; */
+    /* aspect-ratio: 1; */
+    /* margin-top: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+.cell {
+    width: calc( 100% / 10);
+    aspect-ratio: 1;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+
+.skyblue {
+    background-color: skyblue;
+}
